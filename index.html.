@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saját Magyar Nemzetünk Közössége</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* világos háttér */
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .discord-link {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #7289da;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: 0.3s;
+        }
+        .discord-link:hover {
+            background-color: #5b6eae;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Saját Magyar Nemzetünk Közössége</h1>
+        <p>Csatlakozz a közösségünkhöz a Discordon!</p>
+    </header>
+    <nav>
+        <a href="rolunk.html">Rólunk</a>
+        <a href="szabalyzat.html">Szabályzat</a>
+        <a href="tulaj.html">Tulaj</a>
+        <a href="csatlakozas.html">Csatlakozás</a>
+    </nav>
+    <main>
+        <h2>Üdvözlünk!</h2>
+        <p>Ez a főoldal, itt tudsz böngészni a közösség különböző részei között.</p>
+        <a class="discord-link" href="https://discord.gg/ppdCdak8X" target="_blank">Csatlakozás Discordhoz</a>
+    </main>
+    <footer>
+        &copy; 2026 Saját Magyar Nemzetünk Közössége
+    </footer>
+</body>
+</html>
