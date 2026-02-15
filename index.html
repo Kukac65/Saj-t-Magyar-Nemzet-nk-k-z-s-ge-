@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RareHuntOfficial</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+        margin: 0;
+        font-family: 'Press Start 2P', cursive;
+        background: linear-gradient(to right, #1e3c72, #2a5298);
+        color: #fff;
+        text-align: center;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header {
+        margin-bottom: 30px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+        color: #ffdc00;
+        text-shadow: 2px 2px #000;
+        margin: 0;
+    }
+
+    header p {
+        font-size: 0.8rem;
+        color: #fff;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .link-btn {
+        background: linear-gradient(90deg, #ff3c3c, #ffdc00);
+        padding: 15px 30px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #000;
+        transition: transform 0.2s, box-shadow 0.2s;
+        box-shadow: 0 0 15px rgba(255, 220, 0, 0.7);
+    }
+
+    .link-btn:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 25px rgba(255, 220, 0, 1);
+    }
+
+    .pokemon-img {
+        margin-top: 30px;
+        max-width: 200px;
+        animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-15px); }
+    }
+
+    footer {
+        margin-top: 50px;
+        font-size: 0.7rem;
+        color: #ccc;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>RareHuntOfficial</h1>
+    <p>Ritka lapok, booster bontás, W vagy L?</p>
+</header>
+
+<div class="links">
+    <a class="link-btn" href="https://www.tiktok.com/@rarehuntofficial?_r=1&_t=ZN-93wEmznYnSg" target="_blank">TikTok</a>
+    <a class="link-btn" href="https://discord.gg/m7SXCsZd4K" target="_blank">Discord</a>
+    <a class="link-btn" href="https://youtube.com/@rarehuntofficial?si=xLnybfmgH9Z5kmiK" target="_blank">YouTube</a>
+</div>
+
+<img class="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Pikachu">
+
+<footer>
+    © 2026 RareHuntOfficial | Két kezdő gyűjtő projektje
+</footer>
+</body>
+</html>
